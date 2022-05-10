@@ -1,0 +1,5 @@
+{}ttt | Play Tic-Tac-Toe >
+{}rps | Play Rock Paper Scissors >
+{}slot | Play Slot >
+{}coin | Play Coin flip >
+{}roulette | Play Roulette
