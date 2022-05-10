@@ -23,7 +23,7 @@ async def help(ctx):    #help
     for i in range(len(text)):
         newtext = text[i].split(" | ")
         emb.add_field(name = f"{newtext[0]}".format(config.config["PREFIX"]), value = f"{newtext[1]}")
-    emb.add_field(name = "Open source", value = "[GitHub project](https://github.com/Belyanchik)")
+    emb.add_field(name = "Open source", value = "[GitHub project](https://github.com/Belyanchik/miniGamesDiscordBot)")
     await ctx.send(embed = emb)
 
 
